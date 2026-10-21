@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-21T14:48:05",
+  "mp_database_version": "2026.04.13",
+  "cell_convention": "pymatgen SpacegroupAnalyzer(symprec=0.01).get_conventional_standard_structure()",
+  "formula_parser": "pymatgen Composition",
+  "n_in_training_pool": 3820,
+  "n_in_training_pool_top20": 5,
+  "filters": {
+    "is_metal": false,
+    "theoretical": false,
+    "num_elements": [
+      2,
+      10
+    ],
+    "num_sites": [
+      1,
+      30
+    ]
+  },
+  "n_pool": 12503,
+  "n_screened": 12503,
+  "n_unresolved": 0,
+  "models": {
+    "tda": "results/xgboost_periodic_tda_final_model.pkl",
+    "periodic": "results/xgboost_periodic_final_model.pkl"
+  },
+  "stats": {
+    "n": 12503,
+    "min": 0.1095418706536293,
+    "median": 1.7260823249816895,
+    "n_below1": 4154,
+    "n_le5": 10546
+  },
+  "top20": [
+    "mp-28332",
+    "mp-573702",
+    "mp-619510",
+    "mp-725939",
+    "mp-1193711",
+    "mp-619546",
+    "mp-1192554",
+    "mp-27641",
+    "mp-29955",
+    "mp-28579",
+    "mp-29519",
+    "mp-669458",
+    "mp-672251",
+    "mp-570536",
+    "mp-571177",
+    "mp-567515",
+    "mp-27375",
+    "mp-571011",
+    "mp-1192922",
+    "mp-1193021"
+  ]
+}
